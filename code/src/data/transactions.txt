@@ -1,0 +1,35 @@
+TID: TXN-2023-ABCD
+Date: 2023-09-20 10:00:00
+Sender:
+   Name: "Alpha Investments Inc"
+   Account: IBAN XX99 1234 5678 9012 3456 78 (Some Bank)
+   Address: 123 Finance St, New York, NY, USA
+   Notes: "Investment funds transfer"
+rvcr:
+   Name: "Beta Capital"
+   Account: 987654321 (Beta Bank, UK)
+Amount: $1,000,000.00 (USD)
+Currency Exchange: N/A
+Type: Wire Transfer
+Reference: "Investment Settlement - Ref #INV-2023-0920"
+Additional Notes:
+   "Approval by CFO required."
+
+---
+Transaction ID: TXN-2023-XYZ1
+Date: 2023-09-21 15:30:00
+Sender:
+   Name: "Gamma Trading LLC"
+   Acct: IBAN YY88 8765 4321 0987 6543 21 (Another Bank)
+   Address: 456 Market Ave, London, UK
+   Notes: "Payment for commodity trade"
+Receiver:
+   Name: "Delta Resources Ltd"
+   Account: 123456789 (Delta Bank, UAE)
+Amt: $750,000.00 (USD)
+Currency Exchange: N/A
+Exchange Info: TodayNews
+Transaction Type: SWIFT
+Ref: "Commodity Trade Settlement - Contract #CT-2023-0921"
+Notes:
+   "Urgent processing required."
