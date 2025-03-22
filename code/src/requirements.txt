@@ -1,0 +1,6 @@
+pandas
+spacy
+openai
+rapidfuzz
+
+# instructions - python -m spacy download en_core_web_lg - NER 
