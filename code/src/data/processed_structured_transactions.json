@@ -1,0 +1,197 @@
+[
+  {
+    "Raw Transaction": "{\n  \"Transaction ID\": \"TXN001\",\n  \"Sender Name\": \"acme corporation\",\n  \"Receiver Name\": \"sovco capital partners\",\n  \"Transaction Details\": \"Payment for services rendered\",\n  \"Amount\": \"500000\",\n  \"Receiver Country\": \"USA\",\n  \"Date\": null,\n  \"Transaction Type\": null,\n  \"Reference\": null,\n  \"Sender Account\": null,\n  \"Sender Address\": null,\n  \"Receiver Account\": null,\n  \"Receiver Address\": null,\n  \"Notes\": [\n    \"Payment for services rendered\"\n  ]\n}",
+    "Transaction ID": "TXN001",
+    "Date": null,
+    "Amount": "500000",
+    "Transaction Type": null,
+    "Reference": null,
+    "Sender": {
+      "Name": "acme corporation",
+      "Account": null,
+      "Jurisdiction": null,
+      "Additional Info": []
+    },
+    "Receiver": {
+      "Name": "sovco capital partners",
+      "Account": null,
+      "Jurisdiction": null,
+      "Additional Info": []
+    },
+    "Transaction Details": {
+      "Notes": [
+        "Payment for services rendered"
+      ]
+    },
+    "Proper Noun Entities": [
+      {
+        "Entity Name": "acme corporation",
+        "Entity Type": "Organization"
+      },
+      {
+        "Entity Name": "sovco capital partners",
+        "Entity Type": "Organization"
+      },
+      {
+        "Entity Name": "USA",
+        "Entity Type": "Jurisdiction"
+      }
+    ]
+  },
+  {
+    "Raw Transaction": "{\n  \"Transaction ID\": \"TXN002\",\n  \"Sender Name\": \"global health foundation\",\n  \"Receiver Name\": \"save the children\",\n  \"Transaction Details\": \"Grant disbursement\",\n  \"Amount\": \"2000000\",\n  \"Receiver Country\": \"UK\",\n  \"Date\": null,\n  \"Transaction Type\": null,\n  \"Reference\": null,\n  \"Sender Account\": null,\n  \"Sender Address\": null,\n  \"Receiver Account\": null,\n  \"Receiver Address\": null,\n  \"Notes\": [\n    \"Grant disbursement\"\n  ]\n}",
+    "Transaction ID": "TXN002",
+    "Date": null,
+    "Amount": "2000000",
+    "Transaction Type": null,
+    "Reference": null,
+    "Sender": {
+      "Name": "global health foundation",
+      "Account": null,
+      "Jurisdiction": null,
+      "Additional Info": []
+    },
+    "Receiver": {
+      "Name": "save the children",
+      "Account": null,
+      "Jurisdiction": null,
+      "Additional Info": []
+    },
+    "Transaction Details": {
+      "Notes": [
+        "Grant disbursement"
+      ]
+    },
+    "Proper Noun Entities": [
+      {
+        "Entity Name": "global health foundation",
+        "Entity Type": "Organization"
+      },
+      {
+        "Entity Name": "save the children",
+        "Entity Type": "Person"
+      },
+      {
+        "Entity Name": "UK",
+        "Entity Type": "Jurisdiction"
+      }
+    ]
+  },
+  {
+    "Raw Transaction": "{\n  \"Transaction ID\": \"TXN003\",\n  \"Sender Name\": \"xyz limited\",\n  \"Receiver Name\": \"abc gesellschaft mit beschr\\u00e4nkter haftung\",\n  \"Transaction Details\": \"Purchase of office supplies\",\n  \"Amount\": \"15000\",\n  \"Receiver Country\": \"Germany\",\n  \"Date\": null,\n  \"Transaction Type\": null,\n  \"Reference\": null,\n  \"Sender Account\": null,\n  \"Sender Address\": null,\n  \"Receiver Account\": null,\n  \"Receiver Address\": null,\n  \"Notes\": [\n    \"Purchase of office supplies\"\n  ]\n}",
+    "Transaction ID": "TXN003",
+    "Date": null,
+    "Amount": "15000",
+    "Transaction Type": null,
+    "Reference": null,
+    "Sender": {
+      "Name": "xyz limited",
+      "Account": null,
+      "Jurisdiction": null,
+      "Additional Info": []
+    },
+    "Receiver": {
+      "Name": "abc gesellschaft mit beschr\u00e4nkter haftung",
+      "Account": null,
+      "Jurisdiction": null,
+      "Additional Info": []
+    },
+    "Transaction Details": {
+      "Notes": [
+        "Purchase of office supplies"
+      ]
+    },
+    "Proper Noun Entities": [
+      {
+        "Entity Name": "xyz limited",
+        "Entity Type": "Unknown"
+      },
+      {
+        "Entity Name": "abc gesellschaft mit beschr\u00e4nkter haftung",
+        "Entity Type": "Organization"
+      },
+      {
+        "Entity Name": "Germany",
+        "Entity Type": "Jurisdiction"
+      }
+    ]
+  },
+  {
+    "Raw Transaction": "{\n  \"Transaction ID\": \"TXN004\",\n  \"Sender Name\": \"green earth organisation\",\n  \"Receiver Name\": \"ccmi\",\n  \"Transaction Details\": \"Environmental project funding\",\n  \"Amount\": \"750000\",\n  \"Receiver Country\": \"Cayman Islands\",\n  \"Date\": null,\n  \"Transaction Type\": null,\n  \"Reference\": null,\n  \"Sender Account\": null,\n  \"Sender Address\": null,\n  \"Receiver Account\": null,\n  \"Receiver Address\": null,\n  \"Notes\": [\n    \"Environmental project funding\"\n  ]\n}",
+    "Transaction ID": "TXN004",
+    "Date": null,
+    "Amount": "750000",
+    "Transaction Type": null,
+    "Reference": null,
+    "Sender": {
+      "Name": "green earth organisation",
+      "Account": null,
+      "Jurisdiction": null,
+      "Additional Info": []
+    },
+    "Receiver": {
+      "Name": "ccmi",
+      "Account": null,
+      "Jurisdiction": null,
+      "Additional Info": []
+    },
+    "Transaction Details": {
+      "Notes": [
+        "Environmental project funding"
+      ]
+    },
+    "Proper Noun Entities": [
+      {
+        "Entity Name": "green earth organisation",
+        "Entity Type": "Organization"
+      },
+      {
+        "Entity Name": "ccmi",
+        "Entity Type": "Unknown"
+      },
+      {
+        "Entity Name": "Cayman Islands",
+        "Entity Type": "Jurisdiction"
+      }
+    ]
+  },
+  {
+    "Raw Transaction": "{\n  \"Transaction ID\": \"TXN005\",\n  \"Sender Name\": \"oceanic holdings limited liability company\",\n  \"Receiver Name\": \"alas chiricanas\",\n  \"Transaction Details\": \"Offshore investment\",\n  \"Amount\": \"5000000\",\n  \"Receiver Country\": \"Panama\",\n  \"Date\": null,\n  \"Transaction Type\": null,\n  \"Reference\": null,\n  \"Sender Account\": null,\n  \"Sender Address\": null,\n  \"Receiver Account\": null,\n  \"Receiver Address\": null,\n  \"Notes\": [\n    \"Offshore investment\"\n  ]\n}",
+    "Transaction ID": "TXN005",
+    "Date": null,
+    "Amount": "5000000",
+    "Transaction Type": null,
+    "Reference": null,
+    "Sender": {
+      "Name": "oceanic holdings limited liability company",
+      "Account": null,
+      "Jurisdiction": null,
+      "Additional Info": []
+    },
+    "Receiver": {
+      "Name": "alas chiricanas",
+      "Account": null,
+      "Jurisdiction": null,
+      "Additional Info": []
+    },
+    "Transaction Details": {
+      "Notes": [
+        "Offshore investment"
+      ]
+    },
+    "Proper Noun Entities": [
+      {
+        "Entity Name": "oceanic holdings limited liability company",
+        "Entity Type": "Organization"
+      },
+      {
+        "Entity Name": "alas chiricanas",
+        "Entity Type": "Organization"
+      },
+      {
+        "Entity Name": "Panama",
+        "Entity Type": "Jurisdiction"
+      }
+    ]
+  }
+]
