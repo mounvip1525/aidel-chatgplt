@@ -2,5 +2,5 @@ pandas
 spacy
 openai
 rapidfuzz
-
+wikipedia==1.4.0
 # instructions - python -m spacy download en_core_web_lg - NER 
