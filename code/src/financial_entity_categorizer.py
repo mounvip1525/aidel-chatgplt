@@ -15,7 +15,8 @@ class FinancialEntityCategorizer:
             ],
             'investment_companies': [
                 'investment company', 'investment firm', 'investment management',
-                'asset management', 'mutual fund', 'hedge fund'
+                'asset management', 'mutual fund', 'hedge fund', 'private equity',
+                'financial services', 'asset manager', 'wealth management'
             ],
             'venture_capital': [
                 'venture capital', 'vc firm', 'startup investment',
