@@ -1,0 +1,82 @@
+[
+    {
+      "Raw Transaction": "Transaction ID: TXN-2023-7C2D\nDate: 2023-08-15 14:25:00\n\nSender:\n• Name: \"Quantum Holdings Ltd\"\n• Account: VGB2BVIR024987654321 (British Virgin Islands)\n• Beneficiary Owner: \"Maria Gonzalez\" (DOB: 1975-04-12, Spanish passport ES789012)\n* home: \"scottish road\"\n\nReceiver:\n• Name: \"Golden Sands Trading EZE\"\n• Account: AE450330000012345678901 (Dubai, UAE)\n• Registration: UAE Free Zone License #789-F2\n\nAmount: $950,000.00 (USD)\nCurrency Exchange: EUR - USD (Rate: 1.12)\nTransaction Type: SWIFT\nReference: \"Commodity Trade Settlement - Contract #DX-889\"\n\nAdditional Notes:\n• \"Funds routed via Deutsche Bank Frankfurt (DEUTDEFE) - Emirates NBD/Dubai (EBILAEAD).\"\n• \"Approver: Mr. Viktor Petrov (Linked to OFAC SDN List entry 09876, 2022).\"\n• \"Invoice attached: '011 Equipment Procurement' (PDF missing metadata).\"",
+      "Transaction ID": "TXN-2023-7C2D",
+      "Date": "2023-08-15 14:25:00",
+      "Amount": "$950,000.00 (USD)",
+      "Currency Exchange": "EUR - USD (Rate: 1.12)",
+      "Transaction Type": "SWIFT",
+      "Reference": "Commodity Trade Settlement - Contract #DX-889",
+      "Sender": {
+        "Name": "Quantum Holdings Ltd",
+        "Account": "VGB2BVIR024987654321",
+        "Jurisdiction": "British Virgin Islands",
+        "Additional Info": [
+          "Beneficiary Owner: Maria Gonzalez (DOB: 1975-04-12, Spanish passport ES789012)",
+          "Home Address: Scottish Road"
+        ]
+      },
+      "Receiver": {
+        "Name": "Golden Sands Trading EZE",
+        "Account": "AE450330000012345678901",
+        "Jurisdiction": "Dubai, UAE",
+        "Additional Info": [
+          "Registration: UAE Free Zone License #789-F2"
+        ]
+      },
+      "Transaction Details": {
+        "Notes": [
+          "Funds routed via Deutsche Bank Frankfurt (DEUTDEFE) - Emirates NBD/Dubai (EBILAEAD).",
+          "Approver: Mr. Viktor Petrov (Linked to OFAC SDN List entry 09876, 2022).",
+          "Invoice attached: '011 Equipment Procurement' (PDF missing metadata)."
+        ]
+      },
+      "Proper Noun Entities": [
+        {
+          "Entity Name": "Quantum Holdings Ltd",
+          "Entity Type": "Organization"
+        },
+        {
+          "Entity Name": "Maria Gonzalez",
+          "Entity Type": "Person"
+        },
+        {
+          "Entity Name": "British Virgin Islands",
+          "Entity Type": "Jurisdiction"
+        },
+        {
+          "Entity Name": "Golden Sands Trading EZE",
+          "Entity Type": "Organization"
+        },
+        {
+          "Entity Name": "Dubai, UAE",
+          "Entity Type": "Jurisdiction"
+        },
+        {
+          "Entity Name": "Deutsche Bank Frankfurt",
+          "Entity Type": "Bank"
+        },
+        {
+          "Entity Name": "Emirates NBD",
+          "Entity Type": "Bank"
+        },
+        {
+          "Entity Name": "Viktor Petrov",
+          "Entity Type": "Person"
+        },
+        {
+          "Entity Name": "OFAC SDN List",
+          "Entity Type": "Sanctions List"
+        },
+        {
+          "Entity Name": "UAE Free Zone License #789-F2",
+          "Entity Type": "License"
+        },
+        {
+          "Entity Name": "Commodity Trade Settlement - Contract #DX-889",
+          "Entity Type": "Contract"
+        }
+      ]
+    }
+  ]
+  
