@@ -1,0 +1,41 @@
+[
+    {
+      "Raw Transaction": "{\n  \"Transaction ID\": \"TXN001\",\n  \"Sender Name\": \"acme corporation\",\n  \"Receiver Name\": \"sovco capital partners\",\n  \"Transaction Details\": \"Payment for services rendered\",\n  \"Amount\": \"500000\",\n  \"Receiver Country\": \"USA\",\n  \"Date\": null,\n  \"Transaction Type\": null,\n  \"Reference\": null,\n  \"Sender Account\": null,\n  \"Sender Address\": null,\n  \"Receiver Account\": null,\n  \"Receiver Address\": null,\n  \"Notes\": [\n    \"Payment for services rendered\"\n  ]\n}",
+      "Transaction ID": "TXN001",
+      "Date": null,
+      "Amount": "500000",
+      "Transaction Type": null,
+      "Reference": null,
+      "Sender": {
+        "Name": "acme corporation",
+        "Account": null,
+        "Jurisdiction": null,
+        "Additional Info": []
+      },
+      "Receiver": {
+        "Name": "sovco capital partners",
+        "Account": null,
+        "Jurisdiction": null,
+        "Additional Info": []
+      },
+      "Transaction Details": {
+        "Notes": [
+          "Payment for services rendered"
+        ]
+      },
+      "Proper Noun Entities": [
+        {
+          "Entity Name": "acme corporation",
+          "Entity Type": "Organization"
+        },
+        {
+          "Entity Name": "sovco capital partners",
+          "Entity Type": "Organization"
+        },
+        {
+          "Entity Name": "USA",
+          "Entity Type": "Jurisdiction"
+        }
+      ]
+    }
+]
