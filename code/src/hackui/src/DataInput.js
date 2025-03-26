@@ -3,12 +3,14 @@ import { Upload, FileText } from 'react-feather';
 import './App.css';
 import { useNavigate } from "react-router-dom";
 import StepperComponent from "./StepStatus"; // Import the stepper
+import { useTransactions } from "./TransactionContext";
 
 function DataInput() {
     const [showManualEntry, setShowManualEntry] = useState(false);
     const [file, setFile] = useState(null);
     const [text, setText] = useState("");
     const navigate = useNavigate()
+    const { setTransactions } = useTransactions();
 
     // Handle File Upload
     const handleFileChange = (event) => {
@@ -35,8 +37,6 @@ function DataInput() {
             return;
         }
 
-        navigate("/stepper");
-
         const formData = new FormData();
         formData.append("file", file);
 
@@ -49,17 +49,17 @@ function DataInput() {
             const result = await response.json();
 
             if (response.ok) {
-                console.log(`File processed successfully! Output file: ${result.output_json}`);
-                console.log(result.output_json)
+                console.log("File processed successfully!", result);
+                setTransactions(result.transactions);
+                navigate("/stepper");
             } else {
-                console.log(`Error: ${result.error}`);
+                console.error("Error:", result.error);
             }
         } catch (error) {
             console.error("Error uploading file:", error);
             alert("Failed to process file. Please try again.");
         }
-    };
-
+    }
     return (
         <div className="App">
             <header className="header">
@@ -68,7 +68,7 @@ function DataInput() {
             <div className='main-body'>
                 <div className="left-container">
                     <div className="header-content">
-                        <h1>Risk Wise</h1>
+                        <h1>RiskWise</h1>
                         <p>Automating entity extraction, classification, and risk scoring to empower smarter financial decisions.</p>
                     </div>
 
@@ -131,12 +131,12 @@ function DataInput() {
                                 <textarea
                                     value={text}
                                     onChange={(e) => setText(e.target.value)}
-                                    placeholder="Enter your data here..."
+                                    placeholder="Yet to add this functionality..."
                                     className="textarea-input"
                                 />
                                 <div className="manual-entry-actions">
                                     <button onClick={() => setText('')} className="clear-text-btn">Clear</button>
-                                    <button onClick={processData} className="process-button">Process Data</button>
+                                    <button onClick={processData} className="process-button" disabled>Process Data</button>
                                 </div>
                             </div>
                         )}
