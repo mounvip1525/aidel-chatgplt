@@ -47,7 +47,7 @@ def parse_json_response(json_str: str) -> dict:
         return {}
 
 # Example usage:
-api_key = 'AIzaSyBOZhIYv9KHf-DQNZdcvdqII5IJfz-ghaU'
+api_key = ''   #key to be added
  # Replace with your actual API key.
 model_name = "gemini-2.0-flash"
 
