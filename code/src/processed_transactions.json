@@ -8,7 +8,7 @@
     "Transaction Type": "SWIFT\nReference: \"Commodity Trade Settlement - Contract #DX-889\"\n\nAdditional Notes:\n\u2022 \"Funds routed via Deutsche Bank Frankfurt (DEUTDEFE) - Emirates NBD/Dubai (EBILAEAD).\"\n\u2022 \"Approver: Mr. Viktor Petrov (Linked to OFAC SDN List entry 09876, 2022).\"\n\u2022 \"Invoice attached: '011 Equipment Procurement' (PDF missing metadata).\"",
     "Reference": "Commodity Trade Settlement - Contract #DX-889\"\n\nAdditional Notes:\n\u2022 \"Funds routed via Deutsche Bank Frankfurt (DEUTDEFE) - Emirates NBD/Dubai (EBILAEAD).\"\n\u2022 \"Approver: Mr. Viktor Petrov (Linked to OFAC SDN List entry 09876, 2022).\"\n\u2022 \"Invoice attached: '011 Equipment Procurement' (PDF missing metadata).",
     "Sender": {
-      "Name": "Quantum Holdings Ltd",
+      "Name": "Sberbank",
       "Account": "VGB2BVIR024987654321 (British Virgin Islands)",
       "Jurisdiction": "British Virgin Islands",
       "Additional Info": [
@@ -51,7 +51,7 @@
         "Entity Type": "Jurisdiction"
       },
       {
-        "Entity Name": "Deutsche Bank",
+        "Entity Name": "Sberbank",
         "Entity Type": "Organization"
       },
       {
@@ -59,7 +59,7 @@
         "Entity Type": "Jurisdiction"
       },
       {
-        "Entity Name": "Viktor Petrov",
+        "Entity Name": "Rahul Gandhi",
         "Entity Type": "Person"
       }
     ]
